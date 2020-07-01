@@ -9,6 +9,7 @@ $ pip install -e git+https://github.com/kriowloo/gym-bocicor.git#egg=gym-bocicor
 There are two versions that can be used after installing *gym-bocicor*, namely *gym_bocicor:bocicor-v1* and *gym_bocicor:bocicor-v2* (see an example below). The first one corresponds to the task addressed by the first experiment of the aforementioned manuscript; while the last one corresponds to the second experiment.
 
 ```python
+import gym
 env = gym.make('gym_bocicor:bocicor-v1')
 action = env.action_space.sample()
 print('Random action:', action) # expected output: an integer ranging from 0 to 3
