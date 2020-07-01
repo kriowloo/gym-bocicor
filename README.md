@@ -18,7 +18,7 @@ print('Random action:', action) # expected output: an integer ranging from 0 to 
 
 ```sh
 $ docker run -it python:3.7.8 bash
-# pip install gym
+\# pip install gym
 # pip install -e git+https://github.com/kriowloo/gym-bocicor.git#egg=gym-bocicor
 # python your_code.py
 ```
